@@ -1,18 +1,21 @@
 //palabra resevada, representacion de donde vamos a guardar valores
 var nombre= "Yolanda";
 
-//dos estados de una variable
-//declarar 
+//Dos estados de una variable:
+//1. declarar : Generamos la pabalra reservada y le ponemos un nombre al espacio de memoria
 var edad;
-//inicializar la variable
+//2. inicializar la variable: Poner un valor y ya se puede utilizar
 edad=34;
 
-//= se utiliza para asignarle un valor
+//Variables más complejas
 
-var elementos =["hola","yola"]
+// = (operador) se utiliza para asignarle un valor
+var elementos =["hola","yola"] // array de String
 var persona={
-    nombre:"Yolis",
+    nombre:"Yolis", // : sintaxis para declara un objeto
     edad:31
-}
+} // tipo objeto
 
+// para mandar a llamar la variable
 
+persona;
