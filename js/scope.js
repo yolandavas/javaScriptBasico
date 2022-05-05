@@ -9,7 +9,7 @@
 
 // Ejemplo de lo que es un Scope Global
 
-var miNombre = "Diego"; 
+var miNombre = "Victor"; 
 
 function nombre() {
     miNombre = "Alonso";
@@ -20,12 +20,14 @@ nombre();
 
 console.log(miNombre);
 
-// Ejemplo de lo que es un Scope Local, el Scope local pasa al momento de crear una funcion, esto genera un ámbito diferente al global, al cual no se podrá tener acceso desde el ámbito global 
+// Ejemplo de lo que es un Scope Local, 
+//el Scope local pasa al momento de crear una funcion, esto genera un ámbito diferente al global,
+// al cual no se podrá tener acceso desde el ámbito global 
 
-var miNombre = "Diego"
+var miNombre = "Yolanda"
 
 function nombre() {
-    var miApellido = "De Granda"; 
+    var miApellido = "Vásquez"; 
     return miNombre + " " + miApellido 
 }
 
@@ -34,7 +36,7 @@ nombre();
 console.log(miNombre);
 console.log(miApellido);
 
-//  Ejemplos de como puede ayuar o crear error el tema del scope. 
+/** Ejemplos de como puede ayuar o crear error el tema del scope. */
 
 // Ejemplo 1, cómo con una funcion podemos vambiar el valor de la variable global
 var miNombre = "Diego"

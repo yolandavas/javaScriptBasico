@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <title>Coerción</title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <h1>¿Qué es Coerción?</h1>
+
+    <b
+      >Coerción es la forma en la que podemos cambiar un tipo de valor a otro
+      (Por ejemplo un tipo numero lo podemos cambiar a un tipo string), existen
+      dos tipos de coerción:</b
+    >
+    <ul>
+      <li>
+        Coerción implicita:
+        <b> es cuando el lenguaje nos ayuda a cambiar el tipo de valor. </b>
+      </li>
+      <li>
+        Coerción explicita:
+        <b> es cuando obligamos a que cambie el tipo de valor.</b>
+      </li>
+    </ul>
+    <p></p>
+
+    <code>
+      4 + "7"; //28 string <br />
+      4 * "7" // 28 numero <br />
+      2 + true; // 3 <br />
+      false - 3 // 3</code
+    >
+    <p>Ejemplo de cohercion implicita</p>
+    <code>
+      var a = 4 + "7"; //funcion de un valor a otro valor <br />
+      typeof a <br />
+      "String" //lo convierte en string </code
+    ><br />
+    <b>
+      El operador de + en variables o vairables de tipos diferentes genera la
+      concatenación
+    </b>
+
+    <p>Ejemplo de cohercion explicita</p>
+    <code>
+      Var x=10 <br />
+      var y = x + " "<br />
+      typeof x<br />
+      "number"<br />
+      var z = String(x); //cohercion explicita<br />
+      typeof x<br />
+      "string"<br />
+      var a = Number(z) <br>
+      typeof a<br>
+      "number"
+    </code>
+    <p>Puede pasar en los formularios, ya que te puede regresar un número telefonico como string y se tiene que convertir para realizar alguna operación</p>
+  </body>
+</html>
